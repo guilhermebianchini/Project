@@ -30,16 +30,20 @@ body {
 #item {
     width: 293px;
     height: 381px;
-    background-color: white;
-    border-radius: 5%;
+    background-image: url(valoratn1.jpg);
+    background-repeat: no-repeat;
+    background-size: 300px;
+    background-position: center;
+    border-radius: 8px;
+    
 }
 
 .text-area {
     width: 293px;
-    height: 213px;
+    height: 150px;
     background-color: #191b4e;
     border-radius: 5%;
-    padding: 40px;
+    margin-top: 300px;
 }
 
 .text {
