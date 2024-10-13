@@ -4,13 +4,20 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #000235;
-
 }
 
 /* 
             CABEÇALHO
 */
+body{
+    display: flex;
+    background-image: url(img/body.png);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
 header{
     background-color: #000235;
     color: white;
@@ -26,11 +33,21 @@ header{
     top: 0;
     left: 0;
 }
+
+#cab{
+    display: flex;
+    background-color: #000235;
+    width: 100%;
+    height: 102px;
+
+}
+
 .logo-imagem {
     width: 100px;
     height: 50px;
     display: flex;
     cursor: pointer;
+    align-items: center;
     
 
 }
@@ -40,9 +57,17 @@ header{
     cursor: pointer;
    
 }
+
+#log{
+    width: 150px;
+    height: 100px;
+}
+
 .logo-texto {
     margin-left: 20px;
 }
+
+
 .menu li{
     display: inline-block;
     margin: 0 10px;
@@ -95,6 +120,10 @@ section {
 .container-menu h1{
     font-size: 68px;
     font-weight: bold;
+}
+#img{
+    height: 460px;
+    width: 460px;
 }
 
 .titulo1 {
