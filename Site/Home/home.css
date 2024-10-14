@@ -11,7 +11,7 @@
 */
 body{
     display: flex;
-    background-image: url(img/body.png);
+    background-image: linear-gradient(to right, rgb(255, 129, 169) -80%, rgba(0,2,53,1) 50%, rgb(110, 207, 189) 155%);
     background-position: top center;
     background-repeat: no-repeat;
     background-size: cover;
