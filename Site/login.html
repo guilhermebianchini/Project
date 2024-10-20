@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
     <link rel="stylesheet" href="login.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
 </head>
 <body>
     <header>
@@ -14,19 +17,20 @@
         </a>
     </header>
 
-    <section>
-        <div class="container-img">
+    <section>       
+        <div class="container-img">   
+            <div><img src="img/login1.png" alt="imagem" id="img"></div>
             <h1>Bem-vindo de volta!</h1>
-            <div><img src="img/login1.png" alt="image" id="img"></div>
         </div>
     
         <div class="container-login">
             <h2>Login</h2>
             <input type="email" name="email" id="email" placeholder="Digite seu e-mail"> <br>
             <input type="password" name="senha" id="senha" placeholder="Digite sua senha">
-            <p id="p1">Esqueceu a senha?</p>
+            <p id="p1"><a href="">Esqueceu a senha?</a></p>
             <button id="btn">Entrar</button>
-            <p id="p2">Não tem uma conta? <a href="">Crie uma conta!</a></p>
+            <p id="p2">Não tem uma conta?</p>
+            <p id="p2"><a href="register.html">Crie uma aqui</a></p>
 
         </div>
     </section>

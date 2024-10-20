@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+* {
+    font-family: outfit;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(to right, rgb(255, 129, 169) -80%, rgba(0,2,53,1) 50%, rgb(110, 207, 189) 155%);;
+}
+
+.logo-imagem {
+    width: 100px;
+    height: 50px;
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    
+
+}
+.container-logo{
+    display: flex;
+    align-items: center;
+    cursor: pointer;   
+}
+
+#log{
+    width: 150px;
+    height: 100px;
+}
+
+.logo-texto {
+    color: white;
+    margin-left: 20px;
+}
+
+.menu{
+    margin: 0 10px;
+    font-size: 15px;
+    color: white;
+    text-transform: uppercase;
+}
+
+#teste {
+    width: auto;
+    height: 100px;
+    background-color: rgb(82, 82, 82)
+}
+
+#titulo {
+    text-align: center;
+    color: white;
+    font-size: 45px;
+}
+
+#container {
+    display: flex;
+    padding: 100px 0% 100px;
+    gap: 80px;
+    height: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.img {
+    border-radius: 50px;
+}
+
+#item {
+    width: 293px;
+    height: 381px;
+    background-repeat: no-repeat;
+    background-size: 300px;
+    background-position: center;
+    border-radius: 8px;
+    
+}
+
+.text {
+    color: white;
+    text-align: justify;
+}
+
+.text2 {
+    color: slategray;
+    text-align: justify;
+}

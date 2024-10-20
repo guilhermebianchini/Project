@@ -37,16 +37,17 @@ section {
     color: white;
     margin-left: 20px;
 }
+
 .container-img {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
-   
+    flex-direction: column;   
 }
+
 #img{
     height: 460px;
-    height: 460px;
+    width: 460px;
 }
 
 section h1 {
@@ -61,10 +62,7 @@ section h1 {
     border-radius: 30px;
     background-color: #191B4E;
     padding: 60px;
-    margin: 50px;
-
-    
-    
+    margin: 50px;   
 }
 
 .container-login h2 {
@@ -75,8 +73,6 @@ section h1 {
     background-color: #191B4E;
 }
 
-
-
 .container-login #senha, #email {
     width: 387px;
     height: 53px;
@@ -85,8 +81,7 @@ section h1 {
     background-color: #3d42cb5f;
     margin-top: 30px;
     color: white;
-    border: none;
-    
+    border: none;    
 }
 
 .container-login #p1 {
@@ -97,7 +92,6 @@ section h1 {
     justify-content: end;
     background-color: #191B4E;
     margin-top: 20px;
-
 }
 
 .container-login #btn {
@@ -119,8 +113,7 @@ section h1 {
     justify-content: center;
     background-color: #191B4E;
     margin-top: 20px;
-    text-decoration: none;
-    
+    text-decoration: none;    
 }
 
 a{
