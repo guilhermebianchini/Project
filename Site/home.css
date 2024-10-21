@@ -9,6 +9,7 @@
 /* 
             CABEÇALHO
 */
+
 body{
     margin: 0;
     height: 100vh;
@@ -18,7 +19,7 @@ body{
 }
 
 header{
-    background-image: linear-gradient(to right, rgb(255, 129, 169) -80%, rgba(0,2,53,1) 50%, rgb(110, 207, 189) 155%);
+    background-color: #000235;
     color: white;
     width: 100%;
     display: flex;
@@ -47,8 +48,6 @@ header{
     display: flex;
     cursor: pointer;
     align-items: center;
-    
-
 }
 .container-logo{
     display: flex;
@@ -184,4 +183,23 @@ header{
 
 .search-box:hover > .search-btn .loupe-white {
     display: block;
+}
+
+.footer-container {
+    color: white;
+    padding-bottom: 4rem;
+}
+
+.footer {
+    width: 80%;
+    height: 40vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.footer-heading {
+    display: flex;
 }

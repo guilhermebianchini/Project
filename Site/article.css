@@ -9,9 +9,10 @@
 
 body {
     background: linear-gradient(to right, rgb(255, 129, 169) -80%, rgba(0,2,53,1) 50%, rgb(110, 207, 189) 155%);;
+    margin-top: 30px;
 }
 
-.logo-imagem {
+.logo-imagem{
     width: 100px;
     height: 50px;
     display: flex;
@@ -65,7 +66,7 @@ body {
 }
 
 .img {
-    border-radius: 50px;
+    border-radius: 10px;
 }
 
 #item {
@@ -86,4 +87,8 @@ body {
 .text2 {
     color: slategray;
     text-align: justify;
+}
+
+.link {
+    color: whitesmoke;
 }
