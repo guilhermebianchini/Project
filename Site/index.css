@@ -48,8 +48,6 @@ header{
     display: flex;
     cursor: pointer;
     align-items: center;
-    
-
 }
 .container-logo{
     display: flex;
@@ -61,6 +59,7 @@ header{
 #log{
     width: 150px;
     height: 100px;
+    margin-top: -5px;
 }
 
 .logo-texto {
@@ -153,6 +152,6 @@ section {
     margin-right: 250px;
 }
 .img-inicio {
-    margin-right: 50px;
+    margin-right: 0px;
 }
 

@@ -48,17 +48,20 @@ header{
     display: flex;
     cursor: pointer;
     align-items: center;
+    
 }
 .container-logo{
     display: flex;
     align-items: center;
     cursor: pointer;
+    
    
 }
 
 #log{
     width: 150px;
     height: 100px;
+    
 }
 
 .logo-texto {
