@@ -10,9 +10,10 @@
             CABEÇALHO
 */
 
-body{
+html body{
+    height: 100%;
     margin: 0;
-    height: 100vh;
+    margin: 0;
     width: 100vw;
     background: linear-gradient(to right, rgb(255, 129, 169) -80%, rgba(0,2,53,1) 50%, rgb(110, 207, 189) 155%);  
 
