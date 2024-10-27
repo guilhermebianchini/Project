@@ -1,7 +1,6 @@
-<<<<<<< HEAD
 /* Celulares */
 
-@media screen and (min-widht: 576px) (max-widht: 767px){
+@media screen and (min-widht: 576px) and (max-widht: 767px){
   
 }
 
@@ -17,11 +16,9 @@
 
 }
 
-
-=======
 /* Celulares */
 
-@media screen and (min-widht: 576px) (max-widht: 767px){
+@media screen and (min-widht: 576px) and (max-widht: 767px){
   
 }
 
@@ -37,5 +34,20 @@
 
 }
 
+/* Celulares */
 
->>>>>>> 6b918687d328f4426805de82b08631f899175ec1
+@media screen and (min-widht: 576px) and (max-widht: 767px){
+  
+}
+
+/* Tablets*/
+
+@media screen and (min-width: 768px) and (max-width: 1024px){
+
+}
+
+/* Desktops */
+
+@media screen and (min-width: 1025px){
+
+}
