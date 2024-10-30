@@ -68,7 +68,6 @@ header{
     margin-left: 20px;
 }
 
-
 .menu li{
     display: inline-block;
     margin: 0 10px;
@@ -126,17 +125,11 @@ header{
 }
 
 .search-box{
-    position: absolute;
-    top: 25%;
-    left: 45%;
-    transform: translate(-25%, -45%);
-
     background: white;
     height: 40px;
-    width: 380px;
+    width: 275px;
     padding: 10px;
     border-radius: 40px;
-
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -151,18 +144,14 @@ header{
 .search-text{
     background: none;
     border: 0;
-    outline: 0;
-
-    padding: 0%;
-
-    font-size: 16px;
+    padding: 3%;
+    font-size: 13px;
 }
 
 .search-btn{
-    width: 35px;
-    height: 35px;
+    width: 30px;
+    height: 26px;
     border-radius: 50%;
-
     display: flex;
     justify-content: center;
     align-items: center;
@@ -188,9 +177,9 @@ header{
     display: block;
 }
 
-.title {
+.title{
     font-size: 45px;
-    margin-top: 250px;
+    margin-top: 160px;
     margin-left: 53px;
     text-align: center;
     color: white;
@@ -253,7 +242,7 @@ header{
     color: white;
     margin-top: 250px;
     width: 100%;
-    padding: 20px 0;
+    padding: 15px 0;
     font-family: "Outfit", sans-serif;
     font-optical-sizing: auto;
     z-index: 9;
@@ -266,6 +255,12 @@ header{
     text-align: center;
     flex-wrap: wrap;
     margin: 0 auto;
+
+
+}
+
+.footer-itens{
+    padding: 10px 30px;
 }
 
 a{
