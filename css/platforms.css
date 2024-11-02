@@ -186,12 +186,20 @@ header{
 }
 
 .item {
-    width: 150px;
-    height: 300px;
+    width: 180px;
+    height: 390px;
     background-repeat: no-repeat;
     background-size: 300px;
     background-position: center;
-    border-radius: 8px;
+    border-radius: 19px;
+    background-color: #00023565;
+    padding: 15px;
+    transition: transform 0.8s ease;
+    
+}
+.item:hover {
+    transform: scale(1.05);
+    box-shadow: 1px 1px 4px black;
 }
 
 .text {
@@ -203,7 +211,7 @@ header{
 
 .text2 {
     color: white;
-    text-align: justify;
+    text-align: center;
     font-size: 15px;
     padding: 5px;
 }
@@ -242,3 +250,4 @@ a{
     color: #8E5AFF;
     text-decoration:none;
 }
+
