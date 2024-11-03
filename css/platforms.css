@@ -166,7 +166,7 @@ header{
     padding: 3px 10px;
     color: white;
     font-size: 25px;
-    margin-left: 75px;
+    margin-left: 11px;
     background-color: #8E5AFF;
     border-radius: 50px;
 }
@@ -174,7 +174,7 @@ header{
 .container {
     display: flex;
     padding: 100px 0% 100px;
-    gap: 60px;
+    gap: 50px;
     height: auto;
     flex-wrap: wrap;
     justify-content: center;
