@@ -342,7 +342,7 @@ header{
     color: white;
     margin-top: 250px;
     width: 100%;
-    padding: 15px 0;
+    padding: 5px 0;
     font-family: "Outfit", sans-serif;
     font-optical-sizing: auto;
     z-index: 9;
@@ -355,12 +355,10 @@ header{
     text-align: center;
     flex-wrap: wrap;
     margin: 0 auto;
-
-
 }
 
 .footer-itens{
-    padding: 10px 30px;
+    padding: 10px 35px;
 }
 
 a{
