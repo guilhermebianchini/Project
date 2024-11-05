@@ -213,9 +213,13 @@ header{
     border-radius: 25px;
     border: none;
     background-color: #8E5AFF;
-    font-size: 17px;
+    font-size: 15px;
     cursor: pointer;
 
+}
+
+#filt {
+    color: white;
 }
 
 .cat {
@@ -230,10 +234,11 @@ header{
 }
 
 .send {
-    width: 100px;
-    height: 40px;
+    width: 160px;
+    height: 30px;
     border-radius: 20px;
-    margin-top: 4px;
+    margin-top: 10px;
+    font-size: 15px;
     background-color: #8E5AFF;
     color: black;
     align-items: center;
@@ -244,9 +249,9 @@ header{
 /* CARDS */ 
 
 .catg {
-    font-size: 20px;
-    width: 200px;
-    height: 40px;
+    font-size: 18px;
+    width: 110px;
+    height: 30px;
     border-radius: 20px;
     margin: 10px 10px 10px 10px;
     display: flex;
@@ -280,10 +285,15 @@ header{
 }
 
 .logo-user {
-    width: 70px;
-    height: 70px;
+    width: 60px;
+    height: 60px;
     margin-right: 20px;
     margin-bottom: 10px;
+    border-radius: 50px;
+}
+
+.name {
+    font-size: 20px;
 }
 
 .area-user {
@@ -296,11 +306,14 @@ header{
 .assunto {
     display: flex;
     text-align: justify;
+    font-size: 16px;
+    margin-top: 19px;
 }
 
 .interact {
     display: flex;
     padding: 10px;
+    margin-top: 23px;
     justify-content: space-between;
     text-align: center;
     align-items: center;
@@ -310,15 +323,16 @@ header{
     background-color: #8E5AFF;
     padding: 10px;
     border-radius: 20px;
-    font-size: 17px;
+    font-size: 15px;
     color: black;
 }
 
 .curtir {
     background-color: black;
     padding: 10px;
-    margin-left: 10px;
+    margin-left: -15px;
     border-radius: 20px;
+    font-size: 15px;
     color: white;
 }
 
