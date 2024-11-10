@@ -1,10 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
-
 * {
     font-family: outfit;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Outfit", sans-serif;
 }
 
 /* 
@@ -12,10 +11,16 @@
 */
 
 body{
-    background: linear-gradient(to right, rgb(255, 129, 169) -80%, rgba(0,2,53,1) 50%, rgb(110, 207, 189) 155%); 
+    background-image: url(imgwebs/background.webp);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
     margin: 0;
     height: 100%;
     width: 100%;
+
+    /*background: linear-gradient(to right, rgb(255, 129, 169) -80%, rgba(0,2,53,1) 50%, rgb(110, 207, 189) 155%);*/
 }
 
 header{
@@ -239,14 +244,19 @@ header{
 }
 
 .footer-container {
-    background-color: #000235;
+    background: linear-gradient(to bottom, #FFFFFF -100%, #11599E -80%, #1E1A3B 100%);
+    display: flex;
+    justify-items: end;
     color: white;
     margin-top: 250px;
     width: 100%;
     padding: 5px 0;
-    font-family: "Outfit", sans-serif;
     font-optical-sizing: auto;
-    z-index: 9;
+    width: 100%;
+    height: 468px;
+    
+    
+    
 }
 
 .footer {
@@ -256,13 +266,12 @@ header{
     text-align: center;
     flex-wrap: wrap;
     margin: 0 auto;
+    
+    
 }
 
-.footer-itens{
-    padding: 10px 35px;
-}
 
 a{
-    color: #8E5AFF;
+    color: #fdfcff;
     text-decoration:none;
 }
