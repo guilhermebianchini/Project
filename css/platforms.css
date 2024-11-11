@@ -8,7 +8,11 @@
 }
 
 body {
-    background: linear-gradient(to right, rgb(255, 129, 169) -80%, rgba(0,2,53,1) 50%, rgb(110, 207, 189) 155%);;
+    background-image: url(imgwebs/background.webp);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: static;
     margin-top: 30px;
     height: 100%;
     width: 100%;

@@ -15,7 +15,6 @@ body{
     background-position: top center;
     background-repeat: no-repeat;
     background-size: cover;
-    position: fixed;
     margin: 0;
     height: 100%;
     width: 100%;
@@ -213,7 +212,7 @@ header{
 }
 
 .text-area {
-    background-color: #000235;
+    background-color: #1E1A3B;
     width: 1180px;
     height: 242px;
     margin-left: 81px;
@@ -243,7 +242,6 @@ header{
     font-size: 15px;
     width: 850px;
     margin-left: 1075px;
-    text-decoration:none;
     font-weight: 300;
 }
 

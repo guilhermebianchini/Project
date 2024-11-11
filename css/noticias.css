@@ -52,6 +52,7 @@ header{
     cursor: pointer;
     align-items: center;
     
+    
 }
 .container-logo{
     display: flex;
@@ -179,6 +180,7 @@ header{
 
 .img {
     border-radius: 10px;
+    background-size: cover;
     
 }
 
