@@ -9,12 +9,8 @@
 }
 
 body {
-    background-image: url(imgwebs/background.webp);
-    background-position: top center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-image: linear-gradient(140deg, rgb(0, 5, 144) -100%, rgba(0,2,53,1) 50%, rgb(110, 207, 189) 200%);
     position: static;
-    margin-top: 30px;
     height: 100%;
     width: 100%;
 }
@@ -161,8 +157,10 @@ header{
 }
 
 #titulo {
-    padding: 160px;
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 240px 0px 140px 0px;
     font-size: 60px;
 }
 
@@ -173,6 +171,19 @@ header{
     justify-content: center;
     padding: 0px 100px 100px 100px;
     gap: 93px;
+}
+
+#noticia_principal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #191B4E;
+    border-radius: 15px;
+    margin-bottom: 80px;
+}
+
+#noticia_principal img {
+    border-radius: 15px 0px 0px 15px;
 }
 
 #item {
