@@ -1,0 +1,241 @@
+* {
+    font-family: outfit; 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+    font-family: 'Outfit';
+} 
+
+body {
+    background-image: url(imgwebs/backgroundpc.webp);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    margin-top: 30px; 
+    height: 100%; 
+    width: 100%; 
+} 
+
+header{ 
+    background-color: #000235; 
+    color: white; 
+    width: 100%; 
+    display: flex; 
+    justify-content: space-around; 
+    align-items: center; 
+    padding: 20px 0; 
+    font-family: "Outfit", sans-serif; 
+    font-optical-sizing: auto; 
+    font-style: normal; 
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    z-index: 9; 
+} 
+
+.cab{
+    display: flex; 
+    flex-direction: row; 
+    justify-content: space-between; 
+    background-color: #000235; 
+    width: 100%; 
+    height: 102px; 
+} 
+
+.logo-imagem { 
+    width: 100px; 
+    height: 50px; 
+    display: flex; 
+    cursor: pointer; 
+    align-items: center; 
+} 
+
+.container-logo{ 
+    display: flex; 
+    align-items: center; 
+    cursor: pointer; 
+} 
+
+#log{
+    width: 150px; 
+    height: 100px; 
+} 
+
+.logo-texto { 
+    margin-left: 20px; 
+} 
+
+.menu li{ 
+    display: inline-block; 
+    margin: 0 10px; 
+} 
+
+.menu li a{ 
+    font-size: 15px; 
+    text-decoration: none; 
+    color: white; 
+    text-transform: uppercase; 
+    padding: 10px 15px; 
+} 
+
+.menu li a:hover{ 
+    background-color: #8E5AFF; 
+    border-radius: 25px; 
+} 
+
+.login li{ 
+    display: inline-block; 
+    margin: 0 10px; 
+} 
+
+.login li a{ 
+    font-size: 15px; 
+    text-decoration: none; 
+    color: white; 
+    text-transform: uppercase; 
+    padding: 10px 15px; 
+}
+
+.login li a:hover{ 
+    background-color: #8E5AFF; 
+    border-radius: 25px; 
+}
+
+.search-box{ 
+    background: white; 
+    height: 40px; 
+    width: 275px; 
+    padding: 10px; 
+    border-radius: 40px; 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+} 
+
+::-webkit-input-placeholder{ 
+    font-size: 17px; 
+    font-family: "Outfit", sans-serif; 
+    color: #000235; 
+} 
+
+.search-text{ 
+    background: none; 
+    border: none; 
+    outline: none; 
+    padding: 3%; 
+    font-size: 13px; 
+} 
+
+.search-btn{ 
+    width: 30px; 
+    height: 25px; 
+    border-radius: 50%; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+}
+
+.loupe-white{ 
+    display: none; 
+} 
+
+.search-box:hover > .search-text { 
+    width: 320px; 
+} 
+
+.search-box:hover > .search-btn { 
+    background: #000235; 
+} 
+
+.search-box:hover > .search-btn .loupe-blue { 
+    display: none; 
+} 
+
+.search-box:hover > .search-btn .loupe-white { 
+    display: block; 
+} 
+
+#container { 
+    padding: 100px 0% 100px; 
+    gap: 45px; 
+    width: 1122px;
+} 
+
+.btn-back {
+    text-align: justify; 
+    color: white; 
+    font-size: 20px; 
+    margin-top: 60px;
+    margin-left: 250px;
+} 
+
+h1 { 
+    text-align: justify; 
+    color: white; 
+    font-size: 40px;
+    margin-top: 35px;
+    margin-left: 250px;
+} 
+
+.day { 
+    text-align: justify; 
+    color: #b898ff;
+    font-size: 15px; 
+    margin-top: 35px;
+    margin-left: 250px;
+}
+
+.head {
+    text-align: justify; 
+    color: white; 
+    font-size: 20px; 
+    margin-top: 15px;
+    margin-left: 250px;
+}
+
+.img { 
+    border-radius: 10px; 
+    margin-left: 250px;
+    margin-top: 25px;
+}
+
+#text-container {
+    text-align: justify;
+    color: white;
+    font-size: 20px;
+    margin-top: 40px;
+    margin-left: 250px;
+}
+
+.text {
+    margin-top: 20px;
+}
+
+.footer-container { 
+    background-color: #000235; 
+    color: white; 
+    margin-top: 150px;
+    width: 100%; 
+    padding: 5px 0; 
+    font-family: "Outfit", sans-serif; 
+    font-optical-sizing: auto; 
+    z-index: 9; 
+} 
+
+.footer { 
+    color: white; 
+    display: flex; 
+    justify-content: center; 
+    text-align: center; 
+    flex-wrap: wrap; 
+    margin: 0 auto; 
+} 
+
+.footer-itens{ 
+    padding: 10px 35px; 
+} 
+
+a{ 
+    color: #8E5AFF; 
+    text-decoration:none; 
+} 

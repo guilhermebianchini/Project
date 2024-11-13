@@ -11,7 +11,7 @@
 */
 
 body{
-    background-image: url(imgwebs/background.webp);
+    background-image: url(imgwebs/backgroundpc.webp);
     background-position: top center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -33,7 +33,7 @@ header{
     font-family: "Outfit", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
-    position: fixed;
+    position: static;
     top: 0;
     left: 0;
     z-index: 9;

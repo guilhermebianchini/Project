@@ -8,7 +8,7 @@
 }
 
 body {
-    background-image: url(imgwebs/background.webp);
+    background-image: url(imgwebs/backgroundpc.webp);
     background-position: top center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -29,7 +29,7 @@ header{
     font-family: "Outfit", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
     z-index: 9;
@@ -187,28 +187,33 @@ header{
 
 .img {
     border-radius: 15px;
+    width: 50%;
+    height: 60%;
+    display: flex;
+    margin: auto;
 }
 
 .item {
-    width: 180px;
-    height: 390px;
+    width: 30%;
+    height: 20%px;
     background-repeat: no-repeat;
-    background-size: 300px;
+    background-size: 80%;
     background-position: center;
     border-radius: 19px;
-    background-color: #00023565;
+    background-color: #1E1A3B;
     padding: 15px;
     transition: transform 0.8s ease;
     
 }
 .item:hover {
     transform: scale(1.05);
-    box-shadow: 1px 1px 4px black;
+    box-shadow: 0px 0px 8px #00f2fe;
 }
 
 .text {
     color: white;
     text-align: center;
+    font-size: 24px;
     background-color: #613bb3;
     border-radius: 15px;
 }

@@ -10,7 +10,9 @@
 
 /* Estilos gerais */
 body {
-    background: linear-gradient(to right, rgb(255, 129, 169) -80%, rgba(0,2,53,1) 50%, rgb(110, 207, 189) 155%);
+    background-image: url(imgwebs/backgroundpc.webp);
+    background-size: cover;
+    position: static;
     line-height: 1.6;
     display: flex;
     flex-direction: column;
@@ -176,7 +178,7 @@ header{
 
 .envio {
     color: white;
-    background-color: #00024179;
+    background-color: linear-gradient(to right, #11599E -80%, #11599E, 50%, #000235,155%);
     width: 600px;
     height: 280px;
     padding: 10px;
@@ -188,7 +190,7 @@ header{
     align-items: center;
     flex-direction: column;
     border: 0.2px solid rgba(0, 0, 0, 0.178);
-    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.178);
+    box-shadow: 5px 6px 8px rgba(0, 0, 0, 0.178);
     text-align: center;
 }
 
@@ -267,7 +269,7 @@ header{
 }
 
 .card {
-    background-color: #1d4061;
+    background-color: #03054b;
     color: white;
     margin: 10px;
     width: 340px;
@@ -281,7 +283,7 @@ header{
 }
 .card:hover {
     transform: scale(1.00);
-    box-shadow: 1px 1px 4px black;
+    box-shadow: 1px 1px 4px rgb(250, 249, 249);
 }
 
 .logo-user {
