@@ -1,9 +1,8 @@
 * {
-    font-family: outfit;
+    font-family: "Outfit", sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Outfit", sans-serif;
 }
 
 /* 
@@ -212,7 +211,7 @@ header{
 }
 
 .text-area {
-    background-color: #1E1A3B;
+    background-color: #171144;
     width: 1180px;
     height: 242px;
     margin-left: 81px;
@@ -255,18 +254,13 @@ header{
 
 .footer-container {
     background: linear-gradient(to bottom, #FFFFFF -100%, #11599E -80%, #1E1A3B 100%);
-    display: flex;
-    justify-items: end;
     color: white;
     margin-top: 150px;
     width: 100%;
     padding: 5px 0;
+    font-family: "Outfit", sans-serif;
     font-optical-sizing: auto;
-    width: 100%;
-    height: 468px;
-    
-    
-    
+    z-index: 9;
 }
 
 .footer {
@@ -275,13 +269,14 @@ header{
     justify-content: center;
     text-align: center;
     flex-wrap: wrap;
-    margin: 0 auto;
-    
-    
+    margin: 0 auto;  
 }
 
+.footer-itens{
+    padding: 10px 35px;
+}
 
 a{
     color: #fdfcff;
-    text-decoration:none;
+    text-decoration: none;
 }

@@ -1,8 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
 
 * {
+<<<<<<< Updated upstream
     font-family: 'Outfit';
     color: white;
+=======
+    font-family: "Outfit", sans-serif;
+>>>>>>> Stashed changes
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -10,8 +14,13 @@
 }
 
 body {
+<<<<<<< Updated upstream
     background-image: linear-gradient(140deg, rgb(0, 5, 144) -100%, rgba(0,2,53,1) 50%, rgb(110, 207, 189) 200%);
     position: static;
+=======
+    background-image: url(imgwebs/background.webp);
+    margin-top: 30px;
+>>>>>>> Stashed changes
     height: 100%;
     width: 100%;
 }
@@ -19,8 +28,7 @@ body {
 header{
     background-color: #000235;
     color: white;
-    width: 100%;
-    
+    width: 100%; 
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -170,6 +178,7 @@ header{
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+<<<<<<< Updated upstream
     padding: 0px 100px 100px 100px;
     gap: 93px;
 }
@@ -220,6 +229,71 @@ img {
 }
 
 button { 
+=======
+    margin-top: -80px;
+    
+}
+
+.img {
+    border-radius: 10px;
+    background-size: cover;
+}
+
+div > .item {
+    width: 300px;
+    height: 200px;
+    background-size: 300px;
+    background-position: center;
+    border-radius: 10px;
+    margin: 100px 20px;
+}
+
+div > .text-area{
+    width: 300px;
+    height: 400px;
+    border-radius: 10px;
+    background-color: #000235;
+    color: white;
+    font-size: 18px;
+    margin-bottom: 20px;
+    line-height: 30%;
+
+    
+}
+
+.text {
+    color: white;
+    text-align: justify;
+    display: flex;
+    font-size: 16px;
+    font-size: 16px;
+    width: 290px;
+    line-height: 150%;
+    padding-left: 3px;
+    margin: 5px; 
+}
+
+.text2 {
+    color: slategray;
+    text-align: justify;
+    font-size: 16px;
+    width: 290px;
+    line-height: 150%;
+    padding-left: 3px;
+    margin: 3px;
+
+}
+
+.leia{
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button{ 
+>>>>>>> Stashed changes
     color: white;
     background-color: #11599E;
     border: none;
@@ -227,13 +301,43 @@ button {
     font-size: 16px;
     width: 90px;
     height: 27px;
+<<<<<<< Updated upstream
 }
 
 button a {
     text-decoration: none;
+=======
+    margin-top: 10px;
+    margin-left: 200px;
+}
+
+.footer-container {
+    background: linear-gradient(to bottom, #FFFFFF -100%, #11599E -80%, #1E1A3B 100%);
+    color: white;
+    margin-top: 150px;
+    width: 100%;
+    padding: 5px 0;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    z-index: 9;
+>>>>>>> Stashed changes
 }
 
 footer {
     text-align: center;
+<<<<<<< Updated upstream
     background-color: #000235;
+=======
+    flex-wrap: wrap;
+    margin: 0 auto;  
+}
+
+.footer-itens{
+    padding: 10px 35px;
+}
+
+a{
+    color: #fdfcff;
+    text-decoration:none;
+>>>>>>> Stashed changes
 }
