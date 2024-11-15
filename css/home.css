@@ -1,9 +1,8 @@
 * {
-    font-family: outfit;
+    font-family: "Outfit", sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Outfit", sans-serif;
 }
 
 /* 
@@ -15,6 +14,9 @@ body{
     background-position: top center;
     background-repeat: no-repeat;
     background-size: cover;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
     margin: 0;
     height: 100%;
     width: 100%;
@@ -184,7 +186,7 @@ header{
 
 .title{
     font-size: 45px;
-    margin-top: 160px;
+    margin-top: 80px;
     margin-left: 53px;
     text-align: center;
     color: white;
@@ -212,7 +214,7 @@ header{
 }
 
 .text-area {
-    background-color: #1E1A3B;
+    background-color: #171144;
     width: 1180px;
     height: 242px;
     margin-left: 81px;
@@ -248,25 +250,138 @@ header{
 .title2{
     font-size: 30px;
     margin-top: 80px;
-    margin-left: 80px;
+    text-align: center;
     color: white;
     text-transform: uppercase;
 }
 
-.footer-container {
-    background: linear-gradient(to bottom, #FFFFFF -100%, #11599E -80%, #1E1A3B 100%);
+.tags {
+    display: inline-block;
+    padding: 3px 10px;
+    color: white;
+    font-size: 25px;
+    background-color: #8E5AFF;
+    border-radius: 50px;
+}
+
+.container2{
     display: flex;
-    justify-items: end;
+    padding: 100px 0% 100px;
+    gap: 25px;
+    height: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: -40px;
+    
+}
+
+.img2{
+    border-radius: 15px;
+    margin: 0;
+}
+
+.item2{
+    background-color: #00023565;
+    width: 180px;
+    height: 200px;
+    border-radius: 19px;
+    padding: 15px;
+    box-shadow: 0px 3px 4px 3px rgba(0, 0, 0, 0.1);
+    transition: transform 0.8s ease;
+}
+
+.game-title{
+    color: white;
+    text-align: center;
+    background-color: #613bb3;
+    border-radius: 15px;
+}
+
+.title3{
+    font-size: 30px;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: -20px;
+}
+
+.area-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 55px;
+    margin-left: 65px;
+}
+
+.card {
+    background-color: #13153f65;
+    color: white;
+    margin: 10px;
+    width: 340px;
+    height: 210px;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.8s ease;  
+
+}
+.card:hover {
+    transform: scale(1.00);
+    box-shadow: 1px 1px 4px black;
+}
+
+.logo-user {
+    width: 60px;
+    height: 60px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    border-radius: 50px;
+    box-shadow: 0px 0px 4px 0.5px black;
+}
+
+.name {
+    font-size: 20px;
+}
+
+.area-user {
+    display: flex;
+    align-items: center;
+    font-size: 32px;
+    text-align: center;
+}
+
+.assunto {
+    display: flex;
+    text-align: justify;
+    font-size: 16px;
+    margin-top: 19px;
+}
+
+.interact {
+    margin-top: 60px;
+    text-align: center;
+}
+
+.mais {
+    background-color: #0d118065;
+    padding: 10px;
+    border-radius: 25px;
+    font-size: 15px;
+    justify-content: center;
+    color: white;
+    border: none;
+}
+
+.footer-container {
+    background: #000235;
     color: white;
     margin-top: 150px;
     width: 100%;
     padding: 5px 0;
+    font-family: "Outfit", sans-serif;
     font-optical-sizing: auto;
-    width: 100%;
-    height: 468px;
-    
-    
-    
+    z-index: 9;
 }
 
 .footer {
@@ -275,13 +390,14 @@ header{
     justify-content: center;
     text-align: center;
     flex-wrap: wrap;
-    margin: 0 auto;
-    
-    
+    margin: 0 auto;  
 }
 
+.footer-itens{
+    padding: 10px 35px;
+}
 
 a{
-    color: #fdfcff;
-    text-decoration:none;
+    color: #8E5AFF;
+    text-decoration: none;
 }

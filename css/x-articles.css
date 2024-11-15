@@ -1,16 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap'); 
+
 * {
     font-family: outfit; 
     margin: 0; 
     padding: 0; 
     box-sizing: border-box; 
-    font-family: 'Outfit';
 } 
 
 body {
     background-image: url(imgwebs/backgroundpc.webp);
     background-position: top center;
     background-repeat: no-repeat;
-    background-size: cover; 
+    background-size: cover;
     margin-top: 30px; 
     height: 100%; 
     width: 100%; 
@@ -204,11 +205,17 @@ h1 {
     color: white;
     font-size: 20px;
     margin-top: 40px;
-    margin-left: 250px;
+    margin-left: 248px;
 }
 
 .text {
-    margin-top: 20px;
+    margin-top: 30px;
+}
+
+#text-container > iframe {
+    text-align: center;
+    height: 450px;
+    width: 875px;
 }
 
 .footer-container { 
@@ -238,4 +245,4 @@ h1 {
 a{ 
     color: #8E5AFF; 
     text-decoration:none; 
-} 
+}

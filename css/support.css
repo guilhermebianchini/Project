@@ -11,6 +11,9 @@
 /* Estilos gerais */
 body {
     background-image: url(imgwebs/backgroundpc.webp);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
     line-height: 1.6;
     display: flex;
     flex-direction: column;
