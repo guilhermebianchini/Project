@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@300..900&family=Outfit:wght@100..900&display=swap');
+
 * {
     font-family: "Outfit", sans-serif;
     margin: 0;
@@ -32,7 +34,6 @@ header{
     justify-content: space-around;
     align-items: center;
     padding: 20px 0;
-    font-family: "Outfit", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
     position: static;
@@ -279,16 +280,28 @@ header{
     border-radius: 15px;
     margin: 0;
 }
-
+.borda{
+    border: 2px solid #000235;
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
 .item2{
+   
     background-color: #00023565;
     width: 180px;
     height: 200px;
     border-radius: 19px;
     padding: 15px;
-    box-shadow: 0px 3px 4px 3px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 3px 4px 3px rgba(6, 6, 6, 0.846);
     transition: transform 0.8s ease;
+
+    &:hover{
+        transform: scale(1.05);
+        box-shadow: 0px 0px 8px #00f2fe;
+    }
 }
+
 
 .game-title{
     color: white;
@@ -320,7 +333,7 @@ header{
     height: 210px;
     padding: 15px;
     border-radius: 8px;
-    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.729);
     display: flex;
     flex-direction: column;
     transition: transform 0.8s ease;  
@@ -328,7 +341,7 @@ header{
 }
 .card:hover {
     transform: scale(1.00);
-    box-shadow: 1px 1px 4px black;
+    box-shadow: 1px 1px 4px rgba(203, 201, 201, 0.508);
 }
 
 .logo-user {

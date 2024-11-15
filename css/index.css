@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@300..900&family=Outfit:wght@100..900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -170,14 +172,15 @@ section {
     width: 100%;
     padding: 100px 100px;
     display: flex;
-    font-family: "Outfit", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
 }
 
 .container-menu h1{
-    font-size: 68px;
-    font-weight: bold;
+    font-size: 75px;
+    margin: 0;
+    
+    
 }
 
 .container-img{
@@ -195,8 +198,9 @@ section {
 }
 
 .titulo1 {
-    font-size: 16px;
-    margin: 0 0 30px;
+    font-size: 70%;
+    margin: 0 0 10px;
+    
 }
 
 .btn-start{
