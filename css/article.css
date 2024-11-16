@@ -60,7 +60,6 @@ header{
     display: flex;
     align-items: center;
     cursor: pointer;
-
 }
 
 #log{
@@ -237,7 +236,97 @@ button a {
     text-decoration: none;
 }
 
+
 footer {
-    text-align: center;
+    width: 100%;
+    color: white;
+    margin-top: 100px;
+}
+
+#footer_content {
     background-color: #000235;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding: 3rem;
+}
+
+#footer_name{
+    margin-bottom: 0.75rem;
+}
+
+.footer-list {
+    display: flex;
+    justify-content: flex-end;
+    gap: 0.75rem;
+    list-style: none;
+    font-size: 18px;
+}
+
+.footer-list .footer-link {
+    transition: all 0.4s;
+}
+
+.footer-list .footer-link:hover {
+    color: #7f37c9;
+}
+
+#footer_social_media .footer-link:hover {
+    opacity: 0.8;
+}
+
+.footer-link {
+    display: inline-block;
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+#instagram {
+    background: linear-gradient(#7f37c9, #ff2992, #ff9807);
+}
+
+#facebook {
+    background-color: #4267b3;
+}
+
+#footer_social_media {
+    display: flex;
+    gap: 2rem;
+    margin-top: 1.5rem;
+}
+
+#footer_social_media .footer-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2.5rem;
+    width: 2.5rem;
+    color: white;
+    border-radius: 50%;
+    transition: all 0.4s;
+}
+
+#footer_social_media .footer-link i {
+    font-size: 1.25rem;
+}
+
+#contacts {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    gap: 0.75rem;
+}
+
+#footer_copyright {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 20px;
+}
+
+#input_group {
+    display: flex;
+    align-items: center;
+    background-color: 4px;
+    border-radius: 50%;
 }
