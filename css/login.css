@@ -3,13 +3,9 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;   
-    font-family: 'Outfit'; 
+    box-sizing: border-box;
+    font-family: 'Outfit';
 }
-
-/* 
-            CABEÇALHO
-*/
 
 body{
     display: flex;
@@ -20,156 +16,89 @@ body{
     position: fixed;
     height: 100vh;
     width: 100vw;
+    color: white;
     
     /*background-image: linear-gradient(to right, rgb(255, 129, 169) -80%, rgba(0,2,53,1) 50%, rgb(110, 207, 189) 155%);*/
 }
 
-.logo-imagem {
-    width: 100px;
-    height: 150px;
-    display: flex;
-    cursor: pointer;
-    margin-top: -17px;
-}
-
-.container-logo{
+section {
     display: flex;
     align-items: center;
-    cursor: pointer;   
+    justify-content: center;
+    padding: 180px;
+    gap: 178px;
 }
 
-#log{
-    width: 150px;
-    height: 100px;
-    margin-top: 16px;
-}
-
-/* IMAGEM */ 
-
-section {
-    font-optical-sizing: auto;
-    font-style: normal;
-    display: flex;
-    margin-top: 100px;
-    justify-content: space-around;
-    color: white;
-    margin-left: 100px;
-    
-}
 .container-img {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
-    margin-top: -82px;
-}
-#img{
-    height: 460px;
-    width: 460px;
 }
 
 section h1 {
     font-size: 40px;
+    padding-bottom: 30px;
 }
-
-/* AREA LOGIN */
 
 .container-login {
-    width: 522px;
-    height: 584px;
-    border-radius: 30px;
-    background-color: #191B4E;
-    padding: 60px;
-    margin-left: 115px;
-    margin-bottom: 50px;
-    margin-top: -82px;
-}
-
-.container-login h2 {
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    margin-bottom: 20px;
-    margin-top: -20px;
-    font-size: 34px;
-    background-color: #191B4E;
+    align-items: center;
+    background-color: #191b4e;
+    width: 522px;
+    height: 570px;
+    border-radius: 15px;
+    padding: 60px;
 }
 
 .container-login #senha, #email {
-    width: 400px;
-    height: 53px;
+    width: 387px;
+    height: 50px;
     border-radius: 25px;
     padding: 20px;
-    background-color: #3d42cb5f;
-    margin-top: 30px;
+    background-color: #14153D;
+    margin-bottom: 30px;
     color: white;
     border: none;
-    font-family: "Outfit", sans-serif;
 }
 
-.container-login #p1 {
+h2 {
+    font-size: 34px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+a {
     font-size: 18px;
-    display: flex;
-    align-items: end;
-    text-align: end;
-    justify-content: end;
-    background-color: #191B4E;
-    margin-top: 20px;
-    margin-right: 15px;
-
-}
-
-.container-login #btn {
-  border: 0;
-  padding: auto;
-  width: 151px;
-  height: 54px;
-  display: inline-block;
-  margin: 20px 120px 0;
-  cursor: pointer;
-  border-radius: 25px;
-  color: white;
-  background-color: #8E5AFF;
-  font-size: 20px;
-  font-family: "Outfit", sans-serif;
-  margin-top: 25px;
-}
-
-.container-login #p2 {
-    font-size: 18px;
-    display: flex;
-    justify-content: center;
-    margin-top: 35px;
-    text-decoration: none;    
-}
-
-.container-login .p3 {
-    font-size: 18px;
-    display: flex;
-    justify-content: center;
-    margin-left: 6px;
-    text-decoration: none;   
-}
-
-.social{
-    text-align: center;
-    margin-top: 15px;
-    margin-left: -10px;
-}
-
-.container-login #p4 {
-    font-size: 18px;
-    display: flex;
-    justify-content: center;
     text-decoration: none;
-    margin-top: 10px;    
+    font-weight: 300;
+    color: #8e5aff;
 }
 
-a{
-    color: #8E5AFF;
-    text-decoration:none;
+#p1 #p3 .p3 #p4 {
+    font-size: 18px;
+    font-weight: 300;
 }
 
-#entrar {
+.social {
+    margin-top: 15px;
+}
+
+#btn {
+    padding: 7px 20px;
+    margin-bottom: 30px;
+    border: none;
+    background-color: #8e5aff;
     color: white;
-    text-decoration:none; 
+    border-radius: 25px;
+    cursor: pointer;
 }
+
+#btn a {
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 400;
+}
+
