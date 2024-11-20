@@ -19,7 +19,6 @@ body{
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    margin: 0;
     height: 100%;
     width: 100%;
 
@@ -188,39 +187,33 @@ header{
 .title{
     font-size: 45px;
     margin-top: 60px;
-    margin-left: 53px;
     text-align: center;
     color: white;
     text-transform: uppercase;
 }
 
 #container {
-    gap: 80px;
     height: auto;
-    flex-wrap: wrap;
     justify-content: center;
     text-align: justify;
+    display: flex;
+
 }
 
 .img {
     border-radius: 10px;
-    margin-top: -114px;
 }
 
-.item {
-    width: 293px;
-    height: 381px;
-    margin-top: 200px;
-    margin-left: 82px;
-}
-
-.text-area {
+.article-area {
     background-color: #171144;
     width: 1180px;
     height: 242px;
-    margin-left: 81px;
-    margin-top: -496px;
     border-radius: 10px;
+    margin-top: 40px;
+}
+
+.text-area {
+    margin-top: -240px;
 }
 
 .text1 {
@@ -320,9 +313,10 @@ header{
 
 .area-cards {
     display: grid;
+    align-items: center;
     grid-template-columns: 1fr 1fr 1fr;
     margin-top: 55px;
-    margin-left: 65px;
+    margin-left: 70px;   
 }
 
 .card {
@@ -381,7 +375,6 @@ header{
     padding: 10px;
     border-radius: 25px;
     font-size: 15px;
-    justify-content: center;
     color: white;
     border: none;
 }
