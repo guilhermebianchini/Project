@@ -164,10 +164,11 @@ header{
 
 .tags {
     display: inline-block;
+    justify-content: center;
     padding: 3px 10px;
     color: white;
     font-size: 25px;
-    margin-left: 11px;
+    margin-left: 50px;
     background-color: #8E5AFF;
     border-radius: 50px;
 }

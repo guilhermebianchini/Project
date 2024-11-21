@@ -311,12 +311,19 @@ header{
     margin-top: -20px;
 }
 
+.catg {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
 .area-cards {
     display: grid;
     align-items: center;
     grid-template-columns: 1fr 1fr 1fr;
     margin-top: 55px;
-    margin-left: 70px;   
+    gap: 50px; 
 }
 
 .card {
