@@ -166,8 +166,8 @@ header{
 
 #container { 
     padding: 100px 0% 100px; 
-    gap: 45px; 
-    width: 1122px;
+    gap: 45px;
+    width: 872px; 
 } 
 
 .btn-back {
@@ -175,8 +175,7 @@ header{
     color: white; 
     font-size: 20px; 
     margin-top: 60px;
-    margin-left: 100px;
-    width: 872px;
+
 } 
 
 h1 { 
@@ -184,8 +183,7 @@ h1 {
     color: white; 
     font-size: 40px;
     margin-top: 35px;
-    margin-left: 100px;
-    width: 872px;
+
 } 
 
 .day { 
@@ -193,8 +191,7 @@ h1 {
     color: #b898ff;
     font-size: 15px; 
     margin-top: 35px;
-    margin-left: 100px;
-    width: 872px;
+
 }
 
 .head {
@@ -202,13 +199,11 @@ h1 {
     color: white; 
     font-size: 20px; 
     margin-top: 15px;
-    margin-left: 100px;
-    width: 872px;
+
 }
 
 .img { 
-    border-radius: 10px; 
-    margin-left: 100px;
+    border-radius: 10px;
     margin-top: 25px;
 }
 
@@ -217,12 +212,16 @@ h1 {
     color: white;
     font-size: 20px;
     margin-top: 40px;
-    margin-left: 100px;
-    width: 872px;
+
 }
 
 .text {
     margin-top: 30px;
+}
+
+.text-title {
+    margin-top: 30px;
+    color: #8E5AFF;
 }
 
 #text-container > iframe {
