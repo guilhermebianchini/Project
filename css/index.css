@@ -4,7 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Outfit"
+    font-family: "Outfit";
 }
 
 /* 
@@ -187,12 +187,13 @@ section {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    margin-right: 200px;
+    padding-right: 200px;
 }
 
 #img{
     height: 460px;
     width: 460px;
+    display: block;
 
 }
 
